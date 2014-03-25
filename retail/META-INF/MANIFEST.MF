@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Retail
+Bundle-SymbolicName: retail
+Bundle-Version: 1.0.0
+Bundle-Activator: com.spike.retail.activator.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Import-Package: com.spike.sales.service, com.spike.sales.service.impl, javax.servlet, javax.servlet.http, org.osgi.service.http,org.osgi.util.tracker, org.osgi.framework;version="1.3.0"
